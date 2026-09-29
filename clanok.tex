@@ -9,8 +9,9 @@
 \usepackage{graphicx}
 \usepackage{url} % príkaz \url na formátovanie URL
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
-
+\usepackage{graphicx}
 \usepackage{cite}
+\usepackage{float}
 %\usepackage{times}
 
 \pagestyle{headings}
@@ -38,7 +39,11 @@
 
 
 \section{Úvod}
-
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\textwidth]{new.pdf}
+	\caption{Vývojový diagram zámeru projektu (test)}
+\end{figure}
 Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
 
 Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
