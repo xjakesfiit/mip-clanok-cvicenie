@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.22)  6 OCT 2026 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.22)  6 OCT 2026 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -505,16 +505,13 @@ L3 programming layer <2025-12-24>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `clanok.out' has not changed.
 (rerunfilecheck)             Checksum: DCA731DA2FC82593BB099E907EB500F3;982.
  ) 
 Here is how much of TeX's memory you used:
  11134 strings out of 467871
  174432 string characters out of 5418860
- 593881 words of memory out of 5000000
+ 593951 words of memory out of 5000000
  39845 multiletter control sequences out of 15000+600000
  641834 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
