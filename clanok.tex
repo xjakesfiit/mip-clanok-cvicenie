@@ -6,17 +6,18 @@
 %\usepackage[T1]{fontenc}
 \usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
 \usepackage[utf8]{inputenc}
-\usepackage{graphicx}
 \usepackage{url} % príkaz \url na formátovanie URL
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
 \usepackage{graphicx}
 \usepackage{cite}
 \usepackage{float}
+\usepackage{wrapfig}
+\usepackage{amsmath}
 %\usepackage{times}
 
 \pagestyle{headings}
 
-\title{Rozpoznávanie mentálnych chorôb/znakov mentálnych chorôb pomocou AI\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2026/27, vedenie: Ing. Vladimír Mlynarovič, PhD.}} % meno a priezvisko vyučujúceho na cvičeniach
+\title{Včasná identifikácia rizikových príznakov duševných porúch pomocou umelej inteligencie\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2026/27, vedenie: Ing. Vladimír Mlynarovič, PhD.}} 
 
 \author{Adam Jakeš, Andrej Kádár, Oliver Chalúpka, Tomáš Jakab\\[2pt]
 	{\small Slovenská technická univerzita v Bratislave}\\
@@ -24,7 +25,7 @@
 	{\small \texttt{xjakes@stuba.sk, xkadar@stuba.sk, xchalupka@stuba.sk, xjakab@stuba.sk}}
 	}
 
-\date{\small 29. september 2026} % upravte
+\date{\small 6. október 2026} % upravte
 
 
 
@@ -50,6 +51,22 @@ Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
 Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlený v časti~\ref{nejaka}.
 Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
 Záverečné poznámky prináša časť~\ref{zaver}.
+
+\begin{figure}[htbp]
+	\centering
+	\begin{minipage}{0.48\textwidth}
+		\centering
+		\includegraphics[height=4cm, keepaspectratio]{diagram2-crop.pdf}
+		\caption{Druhý diagram z UMLet}
+		\label{fig:diag2}
+	\end{minipage}\hfill
+	\begin{minipage}{0.48\textwidth}
+		\centering
+		\includegraphics[height=4.5cm, keepaspectratio]{diagram3-crop.pdf}
+		\caption{Tretí diagram z UMLet}
+		\label{fig:diag3}
+	\end{minipage}
+\end{figure}
 
 
 
