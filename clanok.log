@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.22)  6 OCT 2026 14:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.22)  6 OCT 2026 15:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -410,28 +410,31 @@ File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
 File: new.pdf Graphic file (type pdf)
 <use new.pdf>
 Package pdftex.def Info: new.pdf  used on input line 45.
-(pdftex.def)             Requested size: 137.9979pt x 319.12633pt.
+(pdftex.def)             Requested size: 180.79724pt x 418.10457pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1
 
-{C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<diagram2-crop.pdf, id=54, 243.91125pt x 131.49126pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+
+
+]
+<diagram2-crop.pdf, id=55, 243.91125pt x 131.49126pt>
 File: diagram2-crop.pdf Graphic file (type pdf)
 <use diagram2-crop.pdf>
 Package pdftex.def Info: diagram2-crop.pdf  used on input line 59.
 (pdftex.def)             Requested size: 211.12547pt x 113.81102pt.
-
-Overfull \hbox (45.52695pt too wide) in paragraph at lines 59--60
- [][] 
- []
-
-<diagram3-crop.pdf, id=55, 61.22874pt x 145.54375pt>
+<diagram3-crop.pdf, id=56, 61.22874pt x 145.54375pt>
 File: diagram3-crop.pdf Graphic file (type pdf)
 <use diagram3-crop.pdf>
 Package pdftex.def Info: diagram3-crop.pdf  used on input line 65.
 (pdftex.def)             Requested size: 53.86836pt x 128.0374pt.
+
+Underfull \vbox (badness 4479) has occurred while \output is active []
+
+
 
 LaTeX Warning: Citation `Coplien:MPD' on page 2 undefined on input line 91.
 
@@ -446,36 +449,54 @@ LaTeX Warning: Citation `Czarnecki:Progress' on page 2 undefined on input line
 
 LaTeX Warning: Citation `PLP-Framework' on page 2 undefined on input line 91.
 
+<diagram4-crop.pdf, id=61, 176.66pt x 95.35625pt>
+File: diagram4-crop.pdf Graphic file (type pdf)
+<use diagram4-crop.pdf>
+Package pdftex.def Info: diagram4-crop.pdf  used on input line 95.
+(pdftex.def)             Requested size: 406.79724pt x 219.581pt.
 Package babel Info: 'slovak' activates 'slovak' shorthands.
-(babel)             Reported on input line 94.
+(babel)             Reported on input line 110.
 [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.94 \subsection
-                {NejakÃ© vysvetlenie} \label{ina:nejake} <./new.pdf>]
-No file clanok.bbl.
-[3
+l.110 	\end{itemize}
+                    
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.146 \end{document}
+l.110 	\end{itemize}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.146 \end{document}
-                    
+l.110 	\end{itemize}
+                     <./new.pdf> <./diagram2-crop.pdf> <./diagram3-crop.pdf>]
+Underfull \hbox (badness 1681) in paragraph at lines 128--129
+ []\IL2/cmr/bx/n/10 Veµmi dô-le-¾itá po-známka.[] \IL2/cmr/m/n/10 Nie-kedy je p
+o-
+ []
+
+No file clanok.bbl.
+
+Underfull \vbox (badness 1789) has occurred while \output is active []
+
+ [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.146 \end{document}
-                     <./diagram2-crop.pdf> <./diagram3-crop.pdf>] [4]
-(clanok.aux)
+l.152 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.152 \end{document}
+                     <./diagram4-crop.pdf>] (clanok.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -484,40 +505,42 @@ L3 programming layer <2025-12-24>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `clanok.out' has not changed.
 (rerunfilecheck)             Checksum: DCA731DA2FC82593BB099E907EB500F3;982.
  ) 
 Here is how much of TeX's memory you used:
- 11123 strings out of 467871
- 174150 string characters out of 5418860
- 592823 words of memory out of 5000000
- 39834 multiletter control sequences out of 15000+600000
- 642411 words of font info for 77 fonts, out of 8000000 for 9000
+ 11134 strings out of 467871
+ 174432 string characters out of 5418860
+ 593881 words of memory out of 5000000
+ 39845 multiletter control sequences out of 15000+600000
+ 641834 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,342b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
-000.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi6
-00\csbx12.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfont
-s/dpi600\csti10.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/
-csfonts/dpi600\csbx10.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/p
-ublic/csfonts/dpi600\cstt10.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/lj
-four/public/csfonts/dpi600\csr6.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/p
+ 75i,9n,79p,342b,640s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\cs
+tt10.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi
+600\csr6.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dp
+i600\tcrm1000.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cs
+fonts/dpi600\csbx12.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/pub
+lic/csfonts/dpi600\csti10.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/public/csfonts/dpi600\csbx10.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/p
 k/ljfour/public/csfonts/dpi600\csr7.pk> <C:\Users\User\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/public/csfonts/dpi720\csbx12.pk> <C:\Users\User\AppData\Local\MiKT
-eX\fonts/pk/ljfour/public/csfonts/dpi600\cssl10.pk> <C:\Users\User\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr10.pk> <C:\Users\User\AppData
-\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr8.pk> <C:\Users\User\App
-Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\Use
-r\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csbx9.pk> <C:\User
-s\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\cstt9.pk> <C:
-\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr9.pk>
- <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr1
-2.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
-rm1200.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/d
-pi600\csr17.pk>
-Output written on clanok.pdf (4 pages, 144595 bytes).
+ts/pk/ljfour/public/csfonts/dpi600\cssl10.pk> <C:\Users\User\AppData\Local\MiKT
+eX\fonts/pk/ljfour/public/csfonts/dpi600\csr8.pk> <C:\Users\User\AppData\Local\
+MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\User\AppData\L
+ocal\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr10.pk> <C:\Users\User\AppD
+ata\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi720\csbx12.pk> <C:\Users\Use
+r\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\cstt9.pk> <C:\User
+s\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr9.pk> <C:\
+Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr12.pk>
+ <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm120
+0.pk> <C:\Users\User\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600
+\csr17.pk>
+Output written on clanok.pdf (3 pages, 144016 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 521 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 85 words of extra memory for PDF output out of 10000 (max. 10000000)
 
